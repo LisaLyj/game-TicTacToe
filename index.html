@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>freeCodeCamp:Tic Tac Toe Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+          <h1>Tic Tac Toe</h1>
+      </div>
+      <div class="row" id="sign">
+        <h2>Would you like to be X or O?</h2>
+        <button id="x"><h1>X</h1></button>
+        <button id="o"><h1>O</h1></button>
+      </div>
+      <div class="row" id="select">
+          <div class="user"><span class="fa fa-laptop fa-3x" id="computer"></span></div>
+          <div class="user"><h2>Who's first?</h2></div>
+          <div class="user"><span class="fa fa-user fa-3x" id="you"></span></div>
+      </div>
+      <!--div class="row turn">
+          <div class="tran" id="C"><h3>Computer's turn</h3></div>
+          <div class="tran" id="U"><h3>Your turn</h3></div>
+      </div-->
+      <div class="row reset">
+        <div id="gameover"></div>
+        <button id="restart"><h2>restart</h2></button>
+      </div>
+      <div class="row" id="board">
+        <table>
+          <tr>
+            <td class="square" id="first"></td>
+            <td class="square v" id="second"></td>
+            <td class="square" id="third"></td>
+          </tr>
+          <tr>
+            <td class="square h" id="fourth"></td>
+            <td class="square v h" id="fifth"></td>
+            <td class="square h" id="sixth"></td>
+          </tr>
+          <tr>
+            <td class="square" id="seventh"></td>
+            <td class="square v" id="eigth"></td>
+            <td class="square" id="ninth"></td>
+          </tr>
+        </table>
+      </div>
+  </div>
+
+  <script src="https://use.fontawesome.com/a9d83c48ab.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <!--script type="text/javascript">
+    function transit(){
+      console.log(this);
+      this.classList.toggle('moved');
+    }
+    document.querySelector('#C').addEventListener('click', transit);
+    document.querySelector('#U').addEventListener('click', transit);
+  </script-->
+  <script type="text/javascript">
+
+  </script>
+</body>
+</html>
